@@ -6,7 +6,7 @@ This is a NLP, Deep Learning and Data Analysis Project.
 2) Sentiment Analysis
 3) Visibility Analysis i.e. calculating the reach of positive tweets vs negative tweets.
 ## Sentiment Classification Architecture
-(https://github.com/Shahil98/Opinion_Mining_And_Analysis/blob/master/Architecture_Sentiment_Classification.jpg?raw=true)
+!(https://github.com/Shahil98/Opinion_Mining_And_Analysis/blob/master/Architecture_Sentiment_Classification.jpg?raw=true)
 # Getting started
 1) Clone this repository.
 ```
