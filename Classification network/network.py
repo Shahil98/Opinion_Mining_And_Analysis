@@ -6,13 +6,12 @@ import numpy as np
 from tensorflow.python.keras.preprocessing.text import Tokenizer
 from tensorflow.python.keras.preprocessing.sequence import pad_sequences
 from sklearn.model_selection import train_test_split
-from keras.models import Sequential
-from keras.layers import Dense, Embedding, LSTM
-from keras.layers.embeddings import Embedding
-from keras.optimizers import Adam
+from tensorflow.python.keras.models import Sequential
+from tensorflow.python.keras.layers import Dense, Embedding, LSTM
+from tensorflow.python.keras.layers.embeddings import Embedding
+from tensorflow.python.keras.optimizers import Adam
 import string
 import re
-import numpy as np
 
 """
 Reading data from the data.csv file which is generated using 'generate_data.py'.
@@ -71,7 +70,7 @@ model.add(Dense(512, activation='relu'))
 model.add(BatchNormalization())
 model.add(Dense(256, activation='relu'))
 model.add(BatchNormalization())
-model.add(Dense(64, activation='sigmoid'))
+model.add(Dense(64, activation='relu'))
 model.add(BatchNormalization())
 model.add(Dense(1, activation='sigmoid'))
 
