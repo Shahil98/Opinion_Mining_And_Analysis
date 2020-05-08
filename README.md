@@ -1,4 +1,4 @@
-# Opinion_Mining_And_Analysis
+# Opinion Mining And Analysis
 This is a NLP, Deep Learning and Data Analysis Project. 
 <br>
 ## Types of analysis performed in this project on tweets fetched using a keyword or sentence searched
