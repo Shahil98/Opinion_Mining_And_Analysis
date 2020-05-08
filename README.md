@@ -5,6 +5,6 @@ This is a NLP, Deep Learning and Data Analysis Project.
 
 # Getting started
 ## Libraries needed
-'''
+```
 numpy
-'''
+```
