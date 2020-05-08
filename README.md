@@ -8,3 +8,4 @@ This is a NLP, Deep Learning and Data Analysis Project.
 ```
 numpy
 ```
+## Steps for installation and running
