@@ -16,9 +16,6 @@ git clone https://github.com/Shahil98/Opinion_Mining_And_Analysis.git
 2) Execute ```pip install -r requirements.txt``` to install necessary libraries.
 3) Download dataset from ```https://www.kaggle.com/kazanova/sentiment140``` and place the csv file inside Classification network folder.
 4) Execute ```python generate_data.py``` inside Classification network folder to generate data for training the sentiment classification network.
-<br>
 5) Execute ```python network.py``` to train the netwotk. After execution is completed a model.h5 and model.json file will be created.
-<br>
 6) Move to webApp folder and execute ```set FLASK_APP=main.py```.
-<br>
 7) Execute ```python main.py``` to start the application at ```http://localhost:5000```.
