@@ -4,7 +4,7 @@ This is a NLP, Deep Learning and Data Analysis Project.
 ##Screenshots of the analysis performed
 
 # Getting started
-## Libraries needed
+## Prerequisites
 ```
 numpy
 ```
