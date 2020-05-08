@@ -24,8 +24,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   google.charts.setOnLoadCallback(drawVisibilityChart);
   function drawOpinionChart() {
     var oplist = {{ opList|safe }}
-    //var p_data = $('#pos-data').data("posSentPer");
-    //var n_data = $('#neg-data').data("negSentPer");
     var data = google.visualization.arrayToDataTable([
       ['Opinion', 'Opinion Percentage'],
       ['Positive',oplist[0]],
@@ -168,7 +166,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
         <div class="w3-content">
           <div>
             <h1>Visibility Analysis:</h1>
-            <h4 class="w3-padding-32">The Pie-Chart describes the direct visibility/reach percentage distribution of positivity and negativity through fetched tweets.</h4>
+            <h4 class="w3-padding-16">Direct reach of positivity measured in number of people : {{vbList[0]}}</h4>
+            <h4 class="w3-padding-16">Direct reach of negativity measured in number of people : {{vbList[1]}}</h4>
+            <h4 class="w3-padding-16">The Pie-Chart describes the direct visibility/reach percentage distribution of positivity and negativity through fetched tweets.</h4>
           </div>
           {% set source = '../static/hashtag'+ r|string +'.png' %}
           <div class="w3-center">

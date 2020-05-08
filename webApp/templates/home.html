@@ -13,12 +13,4 @@
   <input placeholder="Search..." id="InputText" name="InputText" type="search">
   <i class="fa fa-search"></i>
 </form>
-<div class="container">
-<div class="jumbotron text-center" style="background-color: azure">
-    <h2><u>Trending Twitter Topics In India</u>:</h2>
-    {% for trend,num in topics %}
-    <li><b>{{num}}.{{trend}}</b></li> 
-    {% endfor %}
-  </div>
-</div>
 {% endblock content %}
