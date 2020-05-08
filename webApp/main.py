@@ -115,7 +115,7 @@ def analysis():
     """
     Following piece of code generates tokens using training set.
     """
-    x=np.load('X_train.npy',allow_pickle=True)
+    x=np.load('../Classification network/X_train.npy',allow_pickle=True)
     tk=Tokenizer(num_words=80000)
     tk.fit_on_texts(x)
 
