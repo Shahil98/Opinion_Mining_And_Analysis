@@ -104,13 +104,10 @@ def analysis():
     """
     hashtag=Hashtag_Combined.split(" ")
     df=pd.DataFrame()
-    df1=pd.DataFrame()
     df['hashtags']=pd.Series([i for i in hashtag])
     data=df['hashtags'].value_counts()
-    df1['hashtags']=df['hashtags'].unique()
-    df1['ccounts']=pd.Series([i for i in data])
-    tag_count_list = df1.iloc[:5,1].values.tolist()    
-    tag_list = df1.iloc[:5,0].values.tolist()
+    tag_count_list = data.values[:5]    
+    tag_list = data.keys()[:5]
 
     """
     Following piece of code generates tokens using training set.
